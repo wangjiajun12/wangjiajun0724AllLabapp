@@ -17,7 +17,7 @@ namespace LabAss6
         protected void Button1_Click(object sender, EventArgs e)
         {
             Label4.Text = TextBox1.Text;
-            Label6.Text = Convert.ToString(Convert.ToDouble(TextBox1.Text)*0.15);
+            Label6.Text = Convert.ToString(Convert.ToDouble(TextBox1.Text)* 0.15);
         }
     }
 }
